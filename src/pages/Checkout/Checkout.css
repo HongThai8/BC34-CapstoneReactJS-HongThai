@@ -1,0 +1,55 @@
+.ghe {
+    /* ghế thường */
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: #fff;
+    color: #000;
+}
+
+.gheChuThich {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: default !important;
+    margin-right: 5px;
+    color: black;
+}
+
+
+.gheDaDatByMine {
+    background-color: orange !important;
+    cursor: no-drop;
+}
+
+.gheDangDat {
+    background-color: rgb(18, 176, 18) !important;
+}
+
+
+.gheVip {
+    background-color: rgb(228, 74, 8);
+}
+
+.gheDaDuocDat {
+    color: black !important;
+    background: orange;
+    color: #000;
+    cursor: no-drop !important;
+}
+
+.gheKhachDat {
+    background-color: rgb(242, 25, 191) !important;
+    cursor: no-drop;
+}
+
+@media screen and (max-width:768px) {
+    .ghe{
+        width: 20px;
+        height: 20px;
+    }
+}
